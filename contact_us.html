@@ -1,29 +1,37 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<link rel="stylesheet" type=”text/css” href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-<meta charset="utf-8">
-<title>Contact Us</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8" />
+
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-responsive.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+
+		<title>Contact Us</title>
 </head>
 
 <body>
-<header>
+     <header>
+        <img src="images/logo.png" alt="Wallstickers.ie logo"/>
+         <nav class="navbar navbar-inverse ">
+                 <div class=" navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="for_kids.html">For Kids</a></li>
+                        <li><a href="floral.html">Floral</a></li>
+                        <li><a href="city.html">City</a></li>
+                        <li><a href="abstract.html">Abstract</a></li>
+                        <li><a href="contact_us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+           </nav>
+    </header>
 
-	<img src="images/logo.png" alt="Wallstickers.ie logo"/>
+<article><h1>Contact Us</h1> Please fill the form and we'll try to get back to you as soon as possible.</article>
+ 
 
-    <nav>
-    	<ul>
-        	<li><a href="index.html"> Home </a> </li>
-        	<li><a href="for_kids.html"> For Kids </a> </li>
-        	<li><a href="floral.html"> Floral </a></li>
-        	<li><a href="city.html"> City </a> </li>
-        	<li><a href="abstract.html"> Abstract</a> </li>
-        	<li><a href="contact_us.html"> Contact Us </a></li>
-        </ul>
-     </nav>
- 	 <br/>  
-</header> 
-
+<br/>
      
     <form method="post" action="http://www.webhq.ie/web_dev/food_order.php"> 
         
@@ -43,12 +51,20 @@
         
         
         
-        <input type="checkbox" name="remember" value="yes"/> Yes <label>Join the newsletter</label> <br/> <br/>
+        <input type="checkbox" name="remember" value="yes"/> <label>Yes - Join the newsletter</label> <br/> <br/>
         
         <input type="hidden" name="honeypot" value=""/>
         
         
         <input type="submit" value="submit" /> <br/> <br/>
     </form> 
+    
+<footer class="container">
+
+    <img src="images/cards.JPG" alt="cards"/>
+     Wallstickers.ie - Ph: 00353 868375096 |  
+    e-mail:sales@wallstickers.ie <strong> | All rights reserved © 2012 |</strong>
+ 
+</footer>  
 </body>
 </html>
